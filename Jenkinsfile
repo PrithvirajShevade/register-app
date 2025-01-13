@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'prithvi-Agent' }
+    agent { label 'prithvi-agent' }
     tools {
         jdk 'java17'
         maven 'Maven1'
